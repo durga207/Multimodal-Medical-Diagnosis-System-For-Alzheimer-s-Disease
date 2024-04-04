@@ -9,8 +9,8 @@ The dataset (MRI scans, Demographic and Cognitive Scores) used for training are 
 
 ### Code Structure
 
-- mri_preprocess : Script to automate the preprocessing steps for the MRI scans. This includes - Reorientation, Bias Field Correction, MN152 Registration, Skull Stripping
-- cognitive_and_demographic_preprocessing : Preprocessing the cognitive and demographic features. This includes steps like data cleaning and normalization
-- model_gradcam : 3DCNN + LSTM model for Alzheimer’s Disease Temporal Progression Prediction. Includes Grad-CAM implementation and visualization for explainability
-- experimentation_modalities : Experimentation with different combinations of modalities - MRI only, MRI + Demographic, MRI + Cognitive, MRI + Demographic + Cognitive
-- experimentation_fusion : Experimentation with different fusion strategies - early and late fusion
+- **mri_preprocess : **Script to automate the preprocessing steps for the MRI scans. This includes - Reorientation, Bias Field Correction, MN152 Registration, Skull Stripping
+- **cognitive_and_demographic_preprocessing :** Preprocessing the cognitive and demographic features. This includes steps like data cleaning and normalization
+- **model_gradcam :** 3DCNN + LSTM model for Alzheimer’s Disease Temporal Progression Prediction. Includes Grad-CAM implementation and visualization for explainability
+- **experimentation_modalities : **Experimentation with different combinations of modalities - MRI only, MRI + Demographic, MRI + Cognitive, MRI + Demographic + Cognitive
+- **experimentation_fusion :** Experimentation with different fusion strategies - early and late fusion
